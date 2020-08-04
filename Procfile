@@ -1,1 +1,1 @@
-web: gunicorn Stepik_tours_week2\Stepik_tours_week2.wsgi
+web: gunicorn Stepik_tours_week2.wsgi

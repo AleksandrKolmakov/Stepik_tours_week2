@@ -25,8 +25,9 @@ SECRET_KEY = '-jfo&4=pdz_3%tvq6sgd2)_tnt#9vf*#qp(7!g$__dz7qtml9#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
+ALLOWED_HOSTS = ['*']
+STATIC_ROOT = 'static'
 
 # Application definition
 
